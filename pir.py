@@ -5,6 +5,7 @@ import RPi.GPIO as GPIO
 import time
 import requests
 import vlc
+import random
 
 # Set the GPIO naming convention
 GPIO.setmode(GPIO.BCM)
@@ -42,9 +43,12 @@ try:
 		if currentstate == 1 and previousstate == 0:
 
 			print("Motion detected!")
-		# Your IFTTT URL with event name, key and json parameters (values)
-#			r = requests.post('https://maker.ifttt.com/trigger/motion_detected/with/key/REPLACE_WITH_YOUR_IFTTT', params={"value1":"none","value2":"none","value3":"none"})
-			media = vlc.MediaPlayer("/home/pi/Pimoroni/speakerphat/test/test.mp3")
+		#Generate a Random Integer
+			x = random.randint(1,10)
+			song = '/home/pi/Handwashing_Timer_Music/music/'+ str(x) +'.mp3'
+		# VLC player on motion
+
+			media = vlc.MediaPlayer(song)
 			media.play()
 			# Record new previous state
 			previousstate = 1
