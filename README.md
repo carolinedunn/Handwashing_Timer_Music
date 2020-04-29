@@ -3,17 +3,13 @@ Raspberry Pi with Pimoroni Speaker Phat and motion sensor that plays a 20 second
 NOTE: This is a SOLDERING project! I do not recommend this project for someone without prior soldering experience.
 
 # Materials
-Raspberry Pi Zero W, 3 or 4
-
-PIR Motion Sensor
-
-Power Cable for RPi
-
-8GB microSD card
-
-Keyboard/Mouse/Monitor
-
-Pimoroni Speaker pHat
+Materials:
+- Raspberry Pi Zero with Headers - https://amzn.to/2NncxP4
+  - or Raspberry Pi 3B, 3B+ (3A, or 4) - https://amzn.to/2O9SxiO
+- MicroSD card - https://amzn.to/2Nq5AN9
+- Motion Sensor - https://amzn.to/32OPMaA
+- Keyboard/Mouse/Monitor
+- Pimoroni Speaker pHat
 
 # Tools
 Solder Iron
