@@ -39,25 +39,26 @@ Solder Holder
 ![WiringDiagram](https://github.com/carolinedunn/SmartHome_MotionSensor_RPi/blob/master/Wiring%20Diagram-MotionSensor%20to%20RPi.jpg)
 
 # Step 2 - Install Software
-1. ```curl -sS https://get.pimoroni.com/speakerphat | bash```
+1. Install Pimoroni SPEAKER PHAT software ```curl -sS https://get.pimoroni.com/speakerphat | bash```
 
 2. Hit 'y' twice and reboot when prompted. (Yes, you want the full install.)
 
 [More info about Pimoroni SpeakerpHat here - https://github.com/pimoroni/speaker-phat ]
 
-3. $ cd Pimoroni/speakerphat/test/test.mp3 - Test VLC music
+3. Test VLC music ```cd Pimoroni/speakerphat/test/test.mp3```
 
-If sound plays, you can move onto the next step. If not, $ sudo apt-get install vlc
+If sound plays, you can move onto the next step. If not, ```sudo apt-get install vlc```
 
-4. $ sudo pip install python-vlc
+4. Install VLC for Python ```sudo pip install python-vlc```
 
-5. $ git clone https://github.com/carolinedunn/Handwashing_Timer_Music 
+5. Git Clone this repository - ```git clone https://github.com/carolinedunn/Handwashing_Timer_Music```
 
-6. $ cd Handwashing_Timer_Music
+6. Go into the directory you just created ```cd Handwashing_Timer_Music```
 
-7. $ python test_music.py - If Music plays, then go to the next step, if not then go back and troubleshoot.
+7. Test your setup by playing some music ```python test_music.py``` - If Music plays, then go to the next step, if not then go back and troubleshoot.
 
-8. $ python pir.py - Wave your hand over the motion sensor. If music plays, move to the next step, otherwise, go back and trouble shoot.
+8. Run the script! ```python pir.py```
+9. Wave your hand over the motion sensor. If music plays, move to the next step, otherwise, go back and trouble shoot.
 
 
 # Step 3: Run on Boot
