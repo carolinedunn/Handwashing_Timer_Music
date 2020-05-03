@@ -2,6 +2,8 @@
 Raspberry Pi with Pimoroni Speaker Phat and motion sensor that plays a 20 second song to indicate length of hand washing.
 NOTE: This is a SOLDERING project! I do not recommend this project for someone without prior soldering experience.
 
+![ProjectGIF](https://github.com/carolinedunn/Handwashing_Timer_Music/blob/master/photos/handwashingtimer.gif)
+
 # Materials
 Materials:
 - Raspberry Pi Zero with Headers - https://amzn.to/2NncxP4
@@ -9,7 +11,9 @@ Materials:
 - MicroSD card - https://amzn.to/2Nq5AN9
 - Motion Sensor - https://amzn.to/32OPMaA
 - Keyboard/Mouse/Monitor
-- Pimoroni Speaker pHat
+- Pimoroni Speaker PHAT
+
+![SpeakerPHATnotsoldered](https://github.com/carolinedunn/Handwashing_Timer_Music/blob/master/photos/speaker-phat-unsoldered.jpg)
 
 # Tools
 Solder Iron
