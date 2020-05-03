@@ -38,8 +38,8 @@ Solder Holder
 
 ![WiringDiagram](https://github.com/carolinedunn/SmartHome_MotionSensor_RPi/blob/master/Wiring%20Diagram-MotionSensor%20to%20RPi.jpg)
 
-# Step 2 - Install pHat software
-1. $ curl -sS https://get.pimoroni.com/speakerphat | bash
+# Step 2 - Install Software
+1. ```curl -sS https://get.pimoroni.com/speakerphat | bash```
 
 2. Hit 'y' twice and reboot when prompted. (Yes, you want the full install.)
 
