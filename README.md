@@ -45,7 +45,7 @@ Solder Holder
 
 [More info about Pimoroni SpeakerpHat here - https://github.com/pimoroni/speaker-phat ]
 
-3. Test VLC music ```cd Pimoroni/speakerphat/test/test.mp3```
+3. Test your install by playing a test file ```vlc /home/pi/Pimoroni/speakerphat/test/test.mp3```
 
 If sound plays, you can move onto the next step. If not, ```sudo apt-get install vlc```
 
